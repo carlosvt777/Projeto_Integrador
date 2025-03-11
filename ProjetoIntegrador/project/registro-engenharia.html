@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Engenheiros - ProfissionaisLib</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">ProfissionaisLib</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Voltar ao Início</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="registration-page">
+        <section class="registration-form-section">
+            <h1>Cadastro de Engenheiros</h1>
+            <form class="registration-form">
+                <div class="form-group">
+                    <h2>Informações Pessoais</h2>
+                    <input type="text" placeholder="Nome Completo" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="tel" placeholder="Telefone" required>
+                    <input type="text" placeholder="CREA" required>
+                </div>
+
+                <div class="form-group">
+                    <h2>Área de Atuação</h2>
+                    <select required>
+                        <option value="">Selecione sua especialidade</option>
+                        <option value="civil">Engenharia Civil</option>
+                        <option value="eletrica">Engenharia Elétrica</option>
+                        <option value="mecanica">Engenharia Mecânica</option>
+                        <option value="producao">Engenharia de Produção</option>
+                        <option value="ambiental">Engenharia Ambiental</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <h2>Experiência Profissional</h2>
+                    <textarea placeholder="Descreva sua experiência profissional" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-button">Cadastrar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-bottom">
+            <p>&copy; 2024 ProfissionaisLib. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
